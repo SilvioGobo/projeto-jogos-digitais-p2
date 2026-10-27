@@ -142,10 +142,16 @@ animations = [{
 }]
 
 [node name="Player" type="CharacterBody2D" unique_id=1418413633]
+position = Vector2(23, 10)
 motion_mode = 1
 script = ExtResource("1_b0kkn")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1858747931]
+zoom = Vector2(1.5, 1.5)
+limit_left = 0
+limit_top = -16
+limit_right = 656
+limit_bottom = 400
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1822088096]
 position = Vector2(0, 5)
