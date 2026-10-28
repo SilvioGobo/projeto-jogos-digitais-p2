@@ -141,7 +141,7 @@ animations = [{
 "speed": 8.0
 }]
 
-[node name="Player" type="CharacterBody2D" unique_id=1418413633]
+[node name="Player" type="CharacterBody2D" unique_id=1418413633 groups=["jogador"]]
 position = Vector2(23, 10)
 motion_mode = 1
 script = ExtResource("1_b0kkn")
